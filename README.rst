@@ -22,25 +22,25 @@ Usage
 -----
 
 .. ::code-block
-$ simplecalc [command] ...
+  $ simplecalc [command] ...
 
-A basic CLI calculator
+  A basic CLI calculator
 
-optional arguments:
-  -h, --help  show this help message and exit
+  optional arguments:
+    -h, --help  show this help message and exit
 
-Commands:
+  Commands:
 
-    fibonacci
-              Find fibonacci of n
-    factorial
-              Find factorial of n
-    prime     Determine if this is a prime
-    add       Add the integer(s)
-    subtract  Subtract the integer(s)
-    multiply  Multiply the integers
-    divide    Divide the integers
-    power     Find the first integer to the power of the second integer provided
+      fibonacci
+                Find fibonacci of n
+      factorial
+                Find factorial of n
+      prime     Determine if this is a prime
+      add       Add the integer(s)
+      subtract  Subtract the integer(s)
+      multiply  Multiply the integers
+      divide    Divide the integers
+      power     Find the first integer to the power of the second integer provided
 
 
 Installation
