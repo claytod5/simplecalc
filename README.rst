@@ -20,8 +20,8 @@ Features
 
 Usage
 -----
+::
 
-.. ::code-block
   $ simplecalc [command] ...
 
   A basic CLI calculator
