@@ -14,9 +14,9 @@ Features
 --------
 
 * Can calculate:
-  * Fibonacci of n
-  * Factorial of n
-  * Add, subtract, multiply, divide, and exponents
+ * Fibonacci of n
+ * Factorial of n
+ * Add, subtract, multiply, divide, and exponents
 
 Usage
 -----
