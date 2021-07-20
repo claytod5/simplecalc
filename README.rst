@@ -3,35 +3,44 @@ simplecalc
 ==========
 
 
-.. image:: https://img.shields.io/pypi/v/simplecalc.svg
-        :target: https://pypi.python.org/pypi/simplecalc
-
-.. image:: https://img.shields.io/travis/claytod5/simplecalc.svg
-        :target: https://travis-ci.com/claytod5/simplecalc
-
-.. image:: https://readthedocs.org/projects/simplecalc/badge/?version=latest
-        :target: https://simplecalc.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-
-
 
 A basic CLI calculator
 
 
 * Free software: MIT license
-* Documentation: https://simplecalc.readthedocs.io.
 
 
 Features
 --------
 
-* TODO
+* Can calculate:
+  * Fibonacci of n
+  * Factorial of n
+  * Add, subtract, multiply, divide, and exponents
 
 Usage
 -----
 
-::
+.. ::code-block
+$ simplecalc [command] ...
+
+A basic CLI calculator
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+Commands:
+
+    fibonacci
+              Find fibonacci of n
+    factorial
+              Find factorial of n
+    prime     Determine if this is a prime
+    add       Add the integer(s)
+    subtract  Subtract the integer(s)
+    multiply  Multiply the integers
+    divide    Divide the integers
+    power     Find the first integer to the power of the second integer provided
 
 
 Installation
