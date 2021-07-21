@@ -8,7 +8,7 @@ from simplecalc import operators
 def main():
     """Console script for simplecalc."""
     parser = argparse.ArgumentParser(
-        description="A basic CLI calculator", usage="simplecalc [command] ..."
+        description="A basic CLI calculator", usage="simplecalc [command] ...",
     )
     subparsers = parser.add_subparsers(
         title="Commands",
@@ -63,7 +63,10 @@ def main():
     args = parser.parse_args()
 
     # print(args)
-    print(args.func(args))
+    try:
+        print(args.func(args))
+    except AttributeError:
+        parser.print_help()
 
     return 0
 
