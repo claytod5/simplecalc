@@ -1,6 +1,5 @@
-==========
-simplecalc
-==========
+# simplecalc
+
 
 
 
@@ -10,7 +9,7 @@ A basic CLI calculator
 * Free software: MIT license
 
 
-# Features
+### Features
 
 * Can calculate:
  * Fibonacci of n
