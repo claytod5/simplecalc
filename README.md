@@ -10,17 +10,15 @@ A basic CLI calculator
 * Free software: MIT license
 
 
-Features
---------
+# Features
 
 * Can calculate:
  * Fibonacci of n
  * Factorial of n
  * Add, subtract, multiply, divide, and exponents
 
-Usage
------
-::
+# Usage
+```
 
   $ simplecalc [command] ...
 
@@ -41,10 +39,10 @@ Usage
       multiply  Multiply the integers
       divide    Divide the integers
       power     Find the first integer to the power of the second integer provided
+```
 
 
-Installation
-------------
+# Installation
 
 Installing with pipx from Github::
 
@@ -54,8 +52,7 @@ Installing with pip from Github::
 
         pip install git+https://www.github.com/claytod5/simplecalc
 
-Credits
--------
+# Credits
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
